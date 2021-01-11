@@ -1,0 +1,183 @@
+* {
+    font-family: 'Montserrat', sans-serif;   
+    margin: 0;
+
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to top, rgba(0, 96, 255, 0.5) ,rgba(0, 96, 255) 3px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+}
+
+
+a:hover {
+    transition: 0.3s;;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:linear-gradient(to bottom right,#1a1a1a,  #3a3a47);
+    align-items: center;
+    border-bottom: 1px solid #5272ff;
+
+} 
+
+.navigation {
+    width: 30%;
+    align-items: center;
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+ 
+li {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+
+/* BODY-CONTENT */
+
+.body-content {
+    height: 1000px;
+    width: 94%;
+    margin: auto;;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.firstColumn, .secondColumn, .thirdColumn, .fourthColumn {
+    margin: 50px auto;
+    border: 1px solid #3B5580;
+    border-radius: 20px;
+} 
+
+.firstColumn {
+    background-image: url(../images/first.jpg);
+    background-size: cover;
+    color: #ffffff;
+    width: 46%;
+    height: 400px;
+    line-height: 40px;
+}
+
+.firstColumn:hover {
+    transition: 0.3s;
+    background-image: url(../images/second.jpg);
+}
+
+.secondColumn {
+
+    background-image: url(../images/second.jpg);
+    color: #ffffff;
+    width: 46%;
+    height: 400px;
+
+}
+
+.secondColumn:hover {
+    transition: 0.3s;
+    background-image: url(../images/first.jpg);
+    background-size: cover;
+}
+
+.thirdColumn {
+    transition: .3s;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    width: 96%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdColumn:hover {
+    transition: 0.5s;
+    background-image: url(../images/bike.jpg), url(../images/run.jpg);
+    background-position: left, right;
+    background-size: 50em 45em;
+    background-repeat: no-repeat;
+}
+
+
+.fourthColumn {
+    background-color:yellow;
+    width: 46%;
+    height: 400px;
+}
+
+i {
+    font-size: 30px;
+    align-self: center;
+    margin: 20px;
+}
+
+.presentation-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+.presentation {
+    padding: 20px;
+    font-weight: 100;
+    font-size: 24px;
+    align-self: center;
+}
+
+
+.moyennes {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin: 24px;
+}
+
+.ligne {
+    border: 3px solid;
+}
+
+
+th {
+    color: #00C1C9;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.bike {
+    width: 200px;
+    height: 200px;
+}
+
+table {
+    border-collapse: collapse;
+} 
